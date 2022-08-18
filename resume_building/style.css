@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lora:wght@400;500;600&family=Poppins:wght@300;500;600&family=Roboto+Mono:wght@300&family=Ubuntu:wght@300&display=swap');
+* {
+    margin-top: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    margin: 15%;
+    width: 70vw;
+    height: inherit;
+    background-color: rgb(196, 209, 196);
+    border: box-border;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+header {
+    line-height: 0.5em;
+    padding-left: 40%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.col {
+    background-color: rgb(204, 228, 204);
+    color: black;
+}
+
+.obj {
+    margin-left: 50px;
+}
+
+.para {
+    font-weight: bold;
+    margin-left: 0;
+    text-decoration: underline;
+    padding-left: 20px;
+    font-size: larger;
+}
+
+.obj #para {
+    margin-left: 0;
+    text-transform: uppercase;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-left: 50px;
+}
+
+table {
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+}
+
+tr {
+    max-width: 40%;
+}
+
+.experience {
+    padding-left: 50px;
+}
+
+.experience p {
+    padding-left: 55px;
+}
+
+pre {
+    padding-left: 55px;
+    font-size: larger;
+}
+
+.experience h5 {
+    padding-left: 40px;
+}
+
+.project p {
+    padding-left: 55px;
+}
+
+.abc {
+    padding-left: 40px !important;
+}
+
+.skills {
+    padding-left: 8px;
+}
+
+.achive {
+    padding-left: 50px;
+}
+
+.achive p {
+    padding-left: 55px;
+}
+
+footer {
+    text-align: center;
+}
